@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }, {
             key: 'serverRequest',
             value: function serverRequest(data) {
-                var serverLink = "https://fast-harbor-05942.herokuapp.com";
+                var serverLink = "https://safe-wildwood-03311.herokuapp.com";
 
                 var xhr = new XMLHttpRequest();
                 xhr.open("POST", serverLink, false);
