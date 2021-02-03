@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }, {
             key: 'serverRequest',
             value: function serverRequest(data) {
-                var serverLink = "http://localhost:8000/";
+                var serverLink = "https://frozen-reef-89470.herokuapp.com";
 
                 var xhr = new XMLHttpRequest();
                 xhr.open("POST", serverLink, false);
