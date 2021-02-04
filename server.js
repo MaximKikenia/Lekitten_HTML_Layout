@@ -33,7 +33,7 @@ app.post('/', function (req, res) {
 
   var mailOptions = {
     from: 'shameless.cansol@gmail.com',
-    to: 'shameless.cansol@gmail.com',
+    to: 'shnipova.elena@yandex.by, shameless.cansol@gmail.com',
     subject: 'LEKITTEN.BY (заявка):',
     html: '<p> <b>Имя:</b> ' + req.body.name + '<br>' + '<b>Номер телефона: </b>' + req.body.phone + '<br>' + '<b>Почта: </b>' + req.body.email + '<br>' + '<b>Текст сообщения: </b>' + req.body.description + '</p>'
   };
